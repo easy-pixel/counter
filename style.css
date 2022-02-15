@@ -1,0 +1,16 @@
+#count-el {
+    font-size: 50px;
+    color: black;
+}
+#save-el {
+    font-size: medium;
+    color: black;
+}
+#increment-btn {
+    border: solid black 1px;
+    background-color: red;
+}
+#save-btn {
+    border: solid black 1px;
+    background-color: green;
+}
