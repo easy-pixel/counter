@@ -1,16 +1,41 @@
-#count-el {
-    font-size: 50px;
-    color: black;
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
 }
-#save-el {
-    font-size: medium;
-    color: black;
+
+body {
+    padding: 10px;
+    min-width: 400px;
 }
-#increment-btn {
-    border: solid black 1px;
-    background-color: red;
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: solid 1px green;
 }
-#save-btn {
-    border: solid black 1px;
+
+button {
+    padding: 10px 20px;
     background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#save_list {
+    margin-top: 10px;
+    list-style: none;
+}
+#save_list li {
+    margin: 5px;
+}
+#save_list a {
+    color: green;
+}
+#save_list a:hover{
+    color: blue;
+    font-weight: bolder;
 }
